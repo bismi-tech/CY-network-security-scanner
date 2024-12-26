@@ -1,0 +1,89 @@
+
+        <html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .danger { color: red; }
+                .warning { color: orange; }
+            </style>
+        </head>
+        <body>
+            <h1>Security Scan Report</h1>
+            <p>Scan performed at: 2024-12-25 22:34:01</p>
+        <h2>Host: 127.0.0.1</h2>
+            <table>
+                <tr>
+                    <th>Port</th>
+                    <th>State</th>
+                    <th>Service</th>
+                    <th>Version</th>
+                    <th>Product</th>
+                </tr>
+            
+                <tr class='danger'>
+                    <td>22</td>
+                    <td>open</td>
+                    <td>ssh</td>
+                    <td>9.8</td>
+                    <td>OpenSSH</td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>80</td>
+                    <td>open</td>
+                    <td>http</td>
+                    <td>2.4.62</td>
+                    <td>Apache httpd</td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>445</td>
+                    <td>open</td>
+                    <td>microsoft-ds</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>3283</td>
+                    <td>open</td>
+                    <td>netassistant</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>5000</td>
+                    <td>open</td>
+                    <td>rtsp</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>5900</td>
+                    <td>open</td>
+                    <td>vnc</td>
+                    <td></td>
+                    <td>Apple remote desktop vnc</td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>7000</td>
+                    <td>open</td>
+                    <td>rtsp</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr class='danger'>
+                    <td>7070</td>
+                    <td>open</td>
+                    <td>realserver</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </table></body></html>

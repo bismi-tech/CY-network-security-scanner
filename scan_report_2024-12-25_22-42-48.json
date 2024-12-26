@@ -1,0 +1,64 @@
+{
+    "127.0.0.1": {
+        "ports": {
+            "22": {
+                "state": "open",
+                "service": "ssh",
+                "version": "9.8",
+                "product": "OpenSSH"
+            },
+            "80": {
+                "state": "open",
+                "service": "http",
+                "version": "2.4.62",
+                "product": "Apache httpd"
+            },
+            "445": {
+                "state": "open",
+                "service": "microsoft-ds",
+                "version": "",
+                "product": ""
+            },
+            "3283": {
+                "state": "open",
+                "service": "netassistant",
+                "version": "",
+                "product": ""
+            },
+            "5000": {
+                "state": "open",
+                "service": "rtsp",
+                "version": "",
+                "product": ""
+            },
+            "5900": {
+                "state": "open",
+                "service": "vnc",
+                "version": "",
+                "product": "Apple remote desktop vnc"
+            },
+            "7000": {
+                "state": "open",
+                "service": "rtsp",
+                "version": "",
+                "product": ""
+            },
+            "7070": {
+                "state": "open",
+                "service": "realserver",
+                "version": "",
+                "product": ""
+            }
+        },
+        "services": [
+            "ssh",
+            "http",
+            "microsoft-ds",
+            "netassistant",
+            "rtsp",
+            "vnc",
+            "rtsp",
+            "realserver"
+        ]
+    }
+}

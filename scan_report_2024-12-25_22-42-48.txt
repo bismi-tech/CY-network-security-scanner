@@ -1,0 +1,58 @@
+Security Scan Report
+===================
+
+Host: 127.0.0.1
+--------------------------------------------------
+
+Open Ports and Services:
+------------------------
+Port 22:
+  State: open
+  Service: ssh
+  Version: 9.8
+  Product: OpenSSH
+
+Port 80:
+  State: open
+  Service: http
+  Version: 2.4.62
+  Product: Apache httpd
+
+Port 445:
+  State: open
+  Service: microsoft-ds
+
+Port 3283:
+  State: open
+  Service: netassistant
+
+Port 5000:
+  State: open
+  Service: rtsp
+
+Port 5900:
+  State: open
+  Service: vnc
+  Product: Apple remote desktop vnc
+
+Port 7000:
+  State: open
+  Service: rtsp
+
+Port 7070:
+  State: open
+  Service: realserver
+
+
+Detected Services:
+-----------------
+- microsoft-ds
+- ssh
+- http
+- rtsp
+- netassistant
+- vnc
+- realserver
+
+==================================================
+
