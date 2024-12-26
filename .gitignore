@@ -1,9 +1,37 @@
+# Virtual Environment
 venv/
+.venv/
+
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
+*.so
+
+# Scan Reports and Logs
+scan_*.log
+scan_report_*.json
+scan_report_*.pdf
+scan_report_*.txt
+scan_report_*.html
 *.log
-.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment Variables
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
