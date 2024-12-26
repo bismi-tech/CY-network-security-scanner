@@ -9,6 +9,7 @@ __pycache__/
 *.so
 
 # Scan Reports and Logs
+reports/*
 scan_*.log
 scan_report_*.json
 scan_report_*.pdf

@@ -70,13 +70,13 @@ class SecurityScanner:
         }
 
     def generate_json_report(self, results: dict, base_filename: str) -> str:
-        filename = f"{base_filename}.json"
+        filename = f"reports/{base_filename}.json"
         with open(filename, 'w') as f:
             json.dump(results, f, indent=4)
         return filename
 
     def generate_text_report(self, results: dict, base_filename: str) -> str:
-        filename = f"{base_filename}.txt"
+        filename = f"reports/{base_filename}.json"
         
         with open(filename, 'w') as f:
             f.write("Security Scan Report\n")
