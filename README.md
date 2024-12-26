@@ -185,10 +185,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👤 Author
 
-Bismillah Fiham
+Fiham Marzook
 - GitHub: [@bismi-tech](https://github.com/bismi-tech)
-- Portfolio: [Portfolio URL]
-- LinkedIn: [LinkedIn URL]
+- Portfolio: [fiham_marzook.com]
+- LinkedIn: [https://www.linkedin.com/in/fiham-m-332201234/]
 
 ## 🙏 Acknowledgments
 
@@ -201,10 +201,3 @@ Bismillah Fiham
 
 
 Made with ❤️ for the Security Community
-
-
-Would you like me to:
-1. Add more code examples?
-2. Include detailed setup instructions?
-3. Add specific security testing scenarios?
-4. Create a detailed feature comparison table?
